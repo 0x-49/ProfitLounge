@@ -3,6 +3,7 @@ import Features from "@/components/sections/features";
 import TechShowcase from "@/components/sections/tech-showcase";
 import HowItWorks from "@/components/sections/how-it-works";
 import SuccessMetrics from "@/components/sections/success-metrics";
+import UseCases from "@/components/sections/use-cases";
 import Testimonials from "@/components/sections/testimonials";
 import Guarantee from "@/components/sections/guarantee";
 import LiveActivity from "@/components/sections/live-activity";
@@ -19,6 +20,7 @@ export default function Home() {
       <TechShowcase />
       <HowItWorks />
       <SuccessMetrics />
+      <UseCases />
       <LiveActivity />
       <Testimonials />
       <Guarantee />
