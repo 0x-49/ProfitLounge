@@ -6,6 +6,7 @@ import useEmblaCarousel from 'embla-carousel-react';
 import { useCallback, useEffect, useState } from 'react';
 
 const useCases = [
+  //#1
   {
     title: "Home Depot Clearance Find",
     profit: "$847",
@@ -14,6 +15,7 @@ const useCases = [
     description: "Member found Phillips Hue lights marked down to $5 each, regular price $100. Bought 20 units and sold them for $50 each on eBay.",
     icon: Tag
   },
+  //#2
   {
     title: "Lowe's Price Error",
     profit: "$1,230",
@@ -22,6 +24,7 @@ const useCases = [
     description: "Caught a pricing mistake on premium power tools. Purchased 6 units at $45 each, sold locally for $250 each.",
     icon: Package
   },
+  //#3
   {
     title: "Target Camera Deal",
     profit: "$720",
@@ -30,6 +33,7 @@ const useCases = [
     description: "Canon mirrorless cameras marked down 70%. Bought 3 units at $110 each, sold for $350 each on Amazon.",
     icon: Truck
   },
+  //#4
   {
     title: "Walmart Electronics",
     profit: "$560",
@@ -38,6 +42,7 @@ const useCases = [
     description: "Gaming consoles clearance deal. Purchased 4 units at $60 each, sold for $200 each through Facebook Marketplace.",
     icon: Tag
   },
+  //#5
   {
     title: "Best Buy Bundle",
     profit: "$950",
@@ -46,6 +51,7 @@ const useCases = [
     description: "Smart home security bundle pricing error. Bought 5 kits at $90 each, sold for $280 each online.",
     icon: Package
   },
+  //#6
   {
     title: "Amazon Price Drop",
     profit: "$680",
@@ -54,6 +60,7 @@ const useCases = [
     description: "Premium headphones price mistake. Secured 4 units at $30 each, sold for $200 each on eBay.",
     icon: Truck
   },
+  //#7
   {
     title: "Office Depot Find",
     profit: "$890",
@@ -62,6 +69,7 @@ const useCases = [
     description: "High-end office chairs clearance. Purchased 5 chairs at $62 each, sold for $240 each locally.",
     icon: Tag
   },
+  //#8
   {
     title: "Costco Bulk Deal",
     profit: "$1,400",
@@ -70,6 +78,7 @@ const useCases = [
     description: "Premium coffee maker pricing error. Bought 10 units at $60 each, sold for $200 each through multiple channels.",
     icon: Package
   },
+  //#9
   {
     title: "Sam's Club Error",
     profit: "$775",
@@ -78,6 +87,7 @@ const useCases = [
     description: "Robot vacuum clearance find. Acquired 5 units at $45 each, sold for $200 each on Amazon.",
     icon: Truck
   },
+  //#10
   {
     title: "Staples Clearance",
     profit: "$640",
@@ -86,6 +96,7 @@ const useCases = [
     description: "Gaming chairs massive discount. Bought 4 chairs at $40 each, sold for $200 each on Facebook Marketplace.",
     icon: Tag
   },
+  //#11
   {
     title: "Microcenter Find",
     profit: "$1,100",
@@ -94,6 +105,7 @@ const useCases = [
     description: "Graphics cards pricing error. Purchased 4 cards at $100 each, sold for $375 each to local buyers.",
     icon: Package
   },
+  //#12
   {
     title: "Dick's Sporting Goods",
     profit: "$920",

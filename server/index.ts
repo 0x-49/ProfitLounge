@@ -39,26 +39,32 @@ app.use((req, res, next) => {
 (async () => {
   const server = await registerRoutes(app);
 
+  // Error handling middleware
   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
     const status = err.status || err.statusCode || 500;
     const message = err.message || "Internal Server Error";
+    
+    // Log error in production
+    if (process.env.NODE_ENV === 'production' || process.env.VERCEL) {
+      console.error('[Error]', err);
+    }
 
     res.status(status).json({ message });
-    throw err;
+    if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
+      throw err; // Only throw in development
+    }
   });
 
-  // importantly only setup vite in development and after
-  // setting up all the other routes so the catch-all route
-  // doesn't interfere with the other routes
-  if (app.get("env") === "development") {
+  // Setup environment-specific middleware
+  if (process.env.NODE_ENV === 'development' && !process.env.VERCEL) {
     await setupVite(app, server);
   } else {
     serveStatic(app);
   }
 
-  // ALWAYS serve the app on port 5000
+  // ALWAYS serve the app on port 5004
   // this serves both the API and the client
-  const PORT = 5000;
+  const PORT = process.env.PORT || 5004;
   server.listen(PORT, "0.0.0.0", () => {
     log(`serving on port ${PORT}`);
   });
