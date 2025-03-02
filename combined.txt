@@ -1,6 +1,6 @@
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\drizzle.config.ts
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\drizzle.config.ts
 ================================================================================
 
 import { defineConfig } from "drizzle-kit";
@@ -21,7 +21,7 @@ export default defineConfig({
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\package.json
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\package.json
 ================================================================================
 
 {
@@ -32,7 +32,7 @@ File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\Prof
   "scripts": {
     "dev": "tsx server/index.ts",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
-    "start": "NODE_ENV=production node dist/index.js",
+    "start": "node dist/index.js",
     "check": "tsc",
     "db:push": "drizzle-kit push"
   },
@@ -131,7 +131,7 @@ File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\Prof
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\postcss.config.js
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\postcss.config.js
 ================================================================================
 
 export default {
@@ -144,7 +144,7 @@ export default {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\tailwind.config.ts
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\tailwind.config.ts
 ================================================================================
 
 import type { Config } from "tailwindcss";
@@ -241,7 +241,7 @@ export default {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\theme.json
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\theme.json
 ================================================================================
 
 {
@@ -254,7 +254,18 @@ File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\Prof
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\index.html
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\vercel.json
+================================================================================
+
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/public"
+}
+
+
+
+================================================================================
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\index.html
 ================================================================================
 
 <!DOCTYPE html>
@@ -271,7 +282,7 @@ File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\Prof
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\public\sitemap.xml
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\public\sitemap.xml
 ================================================================================
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -299,7 +310,7 @@ File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\Prof
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\App.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\App.tsx
 ================================================================================
 
 import { Switch, Route } from "wouter";
@@ -352,7 +363,7 @@ export default App;
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\index.css
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\index.css
 ================================================================================
 
 @tailwind base;
@@ -371,7 +382,7 @@ File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\Prof
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\main.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\main.tsx
 ================================================================================
 
 import { createRoot } from "react-dom/client";
@@ -383,7 +394,7 @@ createRoot(document.getElementById("root")!).render(<App />);
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\layout\header.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\layout\header.tsx
 ================================================================================
 
 import { useState } from "react";
@@ -461,7 +472,7 @@ export default function Header() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\cta.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\cta.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -504,7 +515,7 @@ export default function CTA() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\faq.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\faq.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -585,7 +596,7 @@ export default function FAQ() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\features.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\features.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -702,7 +713,7 @@ export default function Features() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\footer.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\footer.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -793,7 +804,7 @@ export default function Footer() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\guarantee.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\guarantee.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -893,7 +904,7 @@ export default function Guarantee() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\hero.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\hero.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -1015,7 +1026,7 @@ export default function Hero() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\how-it-works.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\how-it-works.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -1094,7 +1105,7 @@ export default function HowItWorks() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\live-activity.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\live-activity.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -1221,7 +1232,7 @@ export default function LiveActivity() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\pricing.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\pricing.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -1303,7 +1314,7 @@ export default function Pricing() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\success-metrics.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\success-metrics.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -1407,7 +1418,7 @@ export default function SuccessMetrics() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\tech-showcase.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\tech-showcase.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -1532,7 +1543,7 @@ export default function TechShowcase() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\use-cases.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\sections\use-cases.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -1782,7 +1793,7 @@ export default function UseCases() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\accordion.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\accordion.tsx
 ================================================================================
 
 import * as React from "react"
@@ -1845,7 +1856,7 @@ export { Accordion, AccordionItem, AccordionTrigger, AccordionContent }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\alert-dialog.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\alert-dialog.tsx
 ================================================================================
 
 import * as React from "react"
@@ -1991,7 +2002,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\alert.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\alert.tsx
 ================================================================================
 
 import * as React from "react"
@@ -2057,7 +2068,7 @@ export { Alert, AlertTitle, AlertDescription }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\avatar.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\avatar.tsx
 ================================================================================
 
 import * as React from "react"
@@ -2112,7 +2123,7 @@ export { Avatar, AvatarImage, AvatarFallback }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\badge.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\badge.tsx
 ================================================================================
 
 import * as React from "react"
@@ -2155,7 +2166,7 @@ export { Badge, badgeVariants }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\breadcrumb.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\breadcrumb.tsx
 ================================================================================
 
 import * as React from "react"
@@ -2277,7 +2288,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\button.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\button.tsx
 ================================================================================
 
 import * as React from "react"
@@ -2340,7 +2351,7 @@ export { Button, buttonVariants }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\calendar.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\calendar.tsx
 ================================================================================
 
 import * as React from "react"
@@ -2411,7 +2422,7 @@ export { Calendar }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\card.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\card.tsx
 ================================================================================
 
 import * as React from "react"
@@ -2497,7 +2508,7 @@ export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\carousel.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\carousel.tsx
 ================================================================================
 
 import * as React from "react"
@@ -2764,7 +2775,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\chart.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\chart.tsx
 ================================================================================
 
 import * as React from "react"
@@ -3134,7 +3145,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\checkbox.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\checkbox.tsx
 ================================================================================
 
 import * as React from "react"
@@ -3169,7 +3180,7 @@ export { Checkbox }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\collapsible.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\collapsible.tsx
 ================================================================================
 
 import * as CollapsiblePrimitive from "@radix-ui/react-collapsible"
@@ -3185,7 +3196,7 @@ export { Collapsible, CollapsibleTrigger, CollapsibleContent }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\command.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\command.tsx
 ================================================================================
 
 import * as React from "react"
@@ -3345,7 +3356,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\context-menu.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\context-menu.tsx
 ================================================================================
 
 import * as React from "react"
@@ -3550,7 +3561,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\dialog.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\dialog.tsx
 ================================================================================
 
 import * as React from "react"
@@ -3677,7 +3688,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\drawer.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\drawer.tsx
 ================================================================================
 
 import * as React from "react"
@@ -3800,7 +3811,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\dropdown-menu.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\dropdown-menu.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4005,7 +4016,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\form.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\form.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4188,7 +4199,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\hover-card.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\hover-card.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4222,7 +4233,7 @@ export { HoverCard, HoverCardTrigger, HoverCardContent }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\input-otp.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\input-otp.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4298,7 +4309,7 @@ export { InputOTP, InputOTPGroup, InputOTPSlot, InputOTPSeparator }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\input.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\input.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4330,7 +4341,7 @@ export { Input }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\label.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\label.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4361,7 +4372,7 @@ export { Label }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\menubar.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\menubar.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4602,7 +4613,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\navigation-menu.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\navigation-menu.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4737,7 +4748,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\pagination.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\pagination.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4861,7 +4872,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\popover.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\popover.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4897,7 +4908,7 @@ export { Popover, PopoverTrigger, PopoverContent }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\progress.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\progress.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4930,7 +4941,7 @@ export { Progress }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\radio-group.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\radio-group.tsx
 ================================================================================
 
 import * as React from "react"
@@ -4979,7 +4990,7 @@ export { RadioGroup, RadioGroupItem }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\resizable.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\resizable.tsx
 ================================================================================
 
 import { GripVertical } from "lucide-react"
@@ -5029,7 +5040,7 @@ export { ResizablePanelGroup, ResizablePanel, ResizableHandle }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\scroll-area.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\scroll-area.tsx
 ================================================================================
 
 import * as React from "react"
@@ -5082,7 +5093,7 @@ export { ScrollArea, ScrollBar }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\select.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\select.tsx
 ================================================================================
 
 import * as React from "react"
@@ -5247,7 +5258,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\separator.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\separator.tsx
 ================================================================================
 
 import * as React from "react"
@@ -5283,7 +5294,7 @@ export { Separator }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\sheet.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\sheet.tsx
 ================================================================================
 
 import * as React from "react"
@@ -5428,7 +5439,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\sidebar.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\sidebar.tsx
 ================================================================================
 
 import * as React from "react"
@@ -6197,7 +6208,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\skeleton.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\skeleton.tsx
 ================================================================================
 
 import { cn } from "@/lib/utils"
@@ -6219,7 +6230,7 @@ export { Skeleton }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\slider.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\slider.tsx
 ================================================================================
 
 import * as React from "react"
@@ -6252,7 +6263,7 @@ export { Slider }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\switch.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\switch.tsx
 ================================================================================
 
 import * as React from "react"
@@ -6286,7 +6297,7 @@ export { Switch }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\table.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\table.tsx
 ================================================================================
 
 import * as React from "react"
@@ -6410,7 +6421,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\tabs.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\tabs.tsx
 ================================================================================
 
 import * as React from "react"
@@ -6470,7 +6481,7 @@ export { Tabs, TabsList, TabsTrigger, TabsContent }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\textarea.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\textarea.tsx
 ================================================================================
 
 import * as React from "react"
@@ -6501,7 +6512,7 @@ export { Textarea }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\toast.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\toast.tsx
 ================================================================================
 
 import * as React from "react"
@@ -6635,7 +6646,7 @@ export {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\toaster.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\toaster.tsx
 ================================================================================
 
 import { useToast } from "@/hooks/use-toast"
@@ -6675,7 +6686,7 @@ export function Toaster() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\toggle-group.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\toggle-group.tsx
 ================================================================================
 
 import * as React from "react"
@@ -6741,7 +6752,7 @@ export { ToggleGroup, ToggleGroupItem }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\toggle.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\toggle.tsx
 ================================================================================
 
 import * as React from "react"
@@ -6791,7 +6802,7 @@ export { Toggle, toggleVariants }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\tooltip.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\components\ui\tooltip.tsx
 ================================================================================
 
 import * as React from "react"
@@ -6826,7 +6837,7 @@ export { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\hooks\use-mobile.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\hooks\use-mobile.tsx
 ================================================================================
 
 import * as React from "react"
@@ -6852,7 +6863,7 @@ export function useIsMobile() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\hooks\use-toast.ts
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\hooks\use-toast.ts
 ================================================================================
 
 import * as React from "react"
@@ -7050,7 +7061,7 @@ export { useToast, toast }
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\lib\queryClient.ts
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\lib\queryClient.ts
 ================================================================================
 
 import { QueryClient, QueryFunction } from "@tanstack/react-query";
@@ -7114,7 +7125,7 @@ export const queryClient = new QueryClient({
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\lib\utils.ts
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\lib\utils.ts
 ================================================================================
 
 import { clsx, type ClassValue } from "clsx"
@@ -7127,7 +7138,7 @@ export function cn(...inputs: ClassValue[]) {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\pages\home.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\pages\home.tsx
 ================================================================================
 
 import Hero from "@/components/sections/hero";
@@ -7166,7 +7177,7 @@ export default function Home() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\pages\not-found.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\pages\not-found.tsx
 ================================================================================
 
 import { Card, CardContent } from "@/components/ui/card";
@@ -7194,7 +7205,7 @@ export default function NotFound() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\pages\privacy.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\pages\privacy.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -7249,7 +7260,7 @@ export default function Privacy() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\pages\terms.tsx
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\client\src\pages\terms.tsx
 ================================================================================
 
 import { motion } from "framer-motion";
@@ -7304,7 +7315,7 @@ export default function Terms() {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\server\index.ts
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\server\index.ts
 ================================================================================
 
 import express, { type Request, Response, NextFunction } from "express";
@@ -7348,18 +7359,24 @@ app.use((req, res, next) => {
 (async () => {
   const server = await registerRoutes(app);
 
+  // Error handling middleware
   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
     const status = err.status || err.statusCode || 500;
     const message = err.message || "Internal Server Error";
+    
+    // Log error in production
+    if (process.env.NODE_ENV === 'production' || process.env.VERCEL) {
+      console.error('[Error]', err);
+    }
 
     res.status(status).json({ message });
-    throw err;
+    if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
+      throw err; // Only throw in development
+    }
   });
 
-  // importantly only setup vite in development and after
-  // setting up all the other routes so the catch-all route
-  // doesn't interfere with the other routes
-  if (app.get("env") === "development") {
+  // Setup environment-specific middleware
+  if (process.env.NODE_ENV === 'development' && !process.env.VERCEL) {
     await setupVite(app, server);
   } else {
     serveStatic(app);
@@ -7367,7 +7384,7 @@ app.use((req, res, next) => {
 
   // ALWAYS serve the app on port 5004
   // this serves both the API and the client
-  const PORT = 5004;
+  const PORT = process.env.PORT || 5004;
   server.listen(PORT, "0.0.0.0", () => {
     log(`serving on port ${PORT}`);
   });
@@ -7376,7 +7393,7 @@ app.use((req, res, next) => {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\server\routes.ts
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\server\routes.ts
 ================================================================================
 
 import type { Express } from "express";
@@ -7398,7 +7415,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\server\storage.ts
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\server\storage.ts
 ================================================================================
 
 import { users, type User, type InsertUser } from "@shared/schema";
@@ -7444,7 +7461,7 @@ export const storage = new MemStorage();
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\server\vite.ts
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\server\vite.ts
 ================================================================================
 
 import express, { type Express } from "express";
@@ -7520,7 +7537,7 @@ export async function setupVite(app: Express, server: Server) {
 }
 
 export function serveStatic(app: Express) {
-  const distPath = path.resolve(__dirname, "public");
+  const distPath = path.resolve(__dirname, "..", "dist", "public");
 
   if (!fs.existsSync(distPath)) {
     throw new Error(
@@ -7528,18 +7545,31 @@ export function serveStatic(app: Express) {
     );
   }
 
-  app.use(express.static(distPath));
+  // Serve static files with caching headers
+  app.use(express.static(distPath, {
+    maxAge: '1y',
+    etag: true,
+    lastModified: true
+  }));
 
   // fall through to index.html if the file doesn't exist
-  app.use("*", (_req, res) => {
-    res.sendFile(path.resolve(distPath, "index.html"));
+  app.use("*", (_req, res, next) => {
+    const indexPath = path.resolve(distPath, "index.html");
+    if (!fs.existsSync(indexPath)) {
+      return next(new Error('index.html not found'));
+    }
+    res.sendFile(indexPath, {
+      maxAge: '1d',
+      etag: true,
+      lastModified: true
+    });
   });
 }
 
 
 
 ================================================================================
-File Path: C:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\shared\schema.ts
+File Path: c:\personal\LandingPage Affialte SEO\Replit_Final_3\ProfitLounge\ProfitLoungeMarketing\shared\schema.ts
 ================================================================================
 
 import { pgTable, text, serial, integer, boolean } from "drizzle-orm/pg-core";
